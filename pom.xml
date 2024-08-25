@@ -11,17 +11,17 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>microservice-base-generator/common/dal</module>
-        <module>microservice-base-generator/common/util</module>
-        <module>microservice-base-generator/common/service/integration</module>
-        <module>microservice-base-generator/core/model</module>
-        <module>microservice-base-generator/core/service</module>
-        <module>microservice-base-generator/rpc/facade</module>
-        <module>microservice-base-generator/biz/shared</module>
-        <module>microservice-base-generator/biz/service</module>
-        <module>microservice-base-generator/biz/facade/impl</module>
-        <module>microservice-base-generator/test</module>
-        <module>microservice-base-generator/web/api</module>
+        <module>modules/common/dal</module>
+        <module>modules/common/util</module>
+        <module>modules/common/service/integration</module>
+        <module>modules/core/model</module>
+        <module>modules/core/service</module>
+        <module>modules/rpc/facade</module>
+        <module>modules/biz/shared</module>
+        <module>modules/biz/service</module>
+        <module>modules/biz/facade/impl</module>
+        <module>modules/test</module>
+        <module>modules/web/api</module>
         <module>assembly/template</module>
         <module>deploy</module>
     </modules>

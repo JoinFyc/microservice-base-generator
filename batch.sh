@@ -1,4 +1,6 @@
 #!/bin/bash
+#shell
+#PROJECT_NAMES="pay_ser_stub" sh batch.sh
 
 # 配置变量
 ARCHETYPE_GROUP_ID="com.fei.base"

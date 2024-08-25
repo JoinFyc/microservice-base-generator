@@ -23,7 +23,7 @@
     <!-- database name 自定义-->
     <!-- ========================================================== -->
     <!-- -->
-    <database name="akc_base-code-generator" class="com.mysql.cj.jdbc.Driver" type="mysql">
+    <database name="akc_microservice-base-generator" class="com.mysql.cj.jdbc.Driver" type="mysql">
         <property name="url"
                   value="jdbc:mysql://rm-uf6psm6me6z2q2j7mio.mysql.rds.aliyuncs.com:3306/pay_cashier?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=false&amp;allowMultiQueries=true&amp;tinyInt1isBit=false"/>
         <!--                  value="jdbc:mysql://mysql200.akcdevdev.com:3306/akc_pay-channel-wechat-2?characterEncoding=utf-8"/>-->
@@ -55,9 +55,9 @@
     <!--    </splitTableSuffixs>-->
 
     <!-- 表省略前置 支持多个 -->
-    <tablePrefixs database="base-code-generator">
+    <tablePrefixs database="microservice-base-generator">
         <!--长的放前面-->
-        <tablePrefix value="base-code-generator_"/>
+        <tablePrefix value="microservice-base-generator_"/>
     </tablePrefixs>
 
     <!-- &lt;!&ndash; 索引省略前置 支持多个 &ndash;&gt;

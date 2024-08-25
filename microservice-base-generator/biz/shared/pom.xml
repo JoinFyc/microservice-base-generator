@@ -4,14 +4,31 @@
         <groupId>com.fei.base</groupId>
         <artifactId>microservice-base-generator</artifactId>
         <version>1.2.0</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microservice-base-generator-assembly-template</artifactId>
+    <artifactId>microservice-base-generator-biz-shared</artifactId>
     <packaging>jar</packaging>
 
-    <name>microservice-base-generator-assembly-template</name>
+    <name>microservice-base-generator-biz-shared</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fei.base</groupId>
+            <artifactId>microservice-base-generator-core-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

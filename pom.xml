@@ -7,21 +7,21 @@
         <version>1.2.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>base-code-generator</artifactId>
+    <artifactId>microservice-base-generator</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>base-code-generator/common/dal</module>
-        <module>base-code-generator/common/util</module>
-        <module>base-code-generator/common/service/integration</module>
-        <module>base-code-generator/core/model</module>
-        <module>base-code-generator/core/service</module>
-        <module>base-code-generator/service/facade/common</module>
-        <module>base-code-generator/biz/shared</module>
-        <module>base-code-generator/biz/server</module>
-        <module>base-code-generator/biz/service/impl</module>
-        <module>base-code-generator/test</module>
-        <module>base-code-generator/web/base-code-generator</module>
+        <module>microservice-base-generator/common/dal</module>
+        <module>microservice-base-generator/common/util</module>
+        <module>microservice-base-generator/common/service/integration</module>
+        <module>microservice-base-generator/core/model</module>
+        <module>microservice-base-generator/core/service</module>
+        <module>microservice-base-generator/rpc/facade</module>
+        <module>microservice-base-generator/biz/shared</module>
+        <module>microservice-base-generator/biz/service</module>
+        <module>microservice-base-generator/biz/facade/impl</module>
+        <module>microservice-base-generator/test</module>
+        <module>microservice-base-generator/web/api</module>
         <module>assembly/template</module>
         <module>deploy</module>
     </modules>
@@ -31,68 +31,68 @@
             <!-- demo project depends -->
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-common-dal</artifactId>
+                <artifactId>microservice-base-generator-common-dal</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-common-util</artifactId>
+                <artifactId>microservice-base-generator-common-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-common-service-integration</artifactId>
+                <artifactId>microservice-base-generator-common-service-integration</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-core-model</artifactId>
+                <artifactId>microservice-base-generator-core-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-core-service</artifactId>
+                <artifactId>microservice-base-generator-core-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-service-facade-common</artifactId>
+                <artifactId>microservice-base-generator-rpc-facade</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-biz-shared</artifactId>
+                <artifactId>microservice-base-generator-biz-shared</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-server</artifactId>
+                <artifactId>microservice-base-generator-biz-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-biz-service-impl</artifactId>
+                <artifactId>microservice-base-generator-biz-facade-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-assembly-template</artifactId>
+                <artifactId>microservice-base-generator-assembly-template</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-deploy</artifactId>
+                <artifactId>microservice-base-generator-deploy</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-test</artifactId>
+                <artifactId>microservice-base-generator-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fei.base</groupId>
-                <artifactId>base-code-generator-web</artifactId>
+                <artifactId>microservice-base-generator-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

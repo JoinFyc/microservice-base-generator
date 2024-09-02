@@ -9,7 +9,7 @@ ARCHETYPE_VERSION="1.2.0"
 GROUP_ID="com.fei.base"
 PACKAGE="com.fei.base"
 VERSION="1.0.0-SNAPSHOT"
-BASE_DIR="/Users/fei/Desktop/architecture/project" # 指定基础目录
+BASE_DIR="/Users/architecture/project" # 指定基础目录
 
 # 项目名称列表
 # 默认的 PROJECT_NAMES 数组
